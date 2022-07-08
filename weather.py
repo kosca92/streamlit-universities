@@ -19,6 +19,6 @@ def weather(city):
     print(location)
     print(time)
     print(info)
-    print(weather + "°C")
-    return {'location': location, 'time': time, 'info': info,'weather': weather + "°C"}
+    print(weather + "F")
+    return {'location': location, 'time': time, 'info': info,'weather': weather + "F"}
 
